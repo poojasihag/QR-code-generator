@@ -5,7 +5,7 @@ let qrText = document.getElementById("qrText");
 let btn = document.getElementById("btn");
 
 function generateQR() {
-  if (qrText.value.lenght > 0) {
+  if (qrText.value.length > 0) {
     qrImage.src =
       "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" +
       qrText.value;
